@@ -1,0 +1,4 @@
+tasks:
+  - init: scripts/install_aws_cli.sh && chmod +x scripts/*.sh
+    command: echo "
+    AWS CLI is installed and scripts are ready!"
